@@ -1,0 +1,45 @@
+/* testimonial slider */
+.slider-bg{
+    background-position: center;
+    background-size: cover;
+    padding: 200px;
+}
+
+.slider-bg-1{
+    background:url('./images/overlay.png'), url('./images/cover/cover-1.png');
+}
+.slider-bg-2{
+    background:url('./images/overlay.png'), url('./images/cover/cover-2.jpg');
+}
+.slider-bg-3{
+    background:url('./images/overlay.png'), url('./images/cover/cover-3.jpg');
+}
+.text-blue{
+    color: #289BDE;
+}
+.bg-blue{
+    background: #F4FAFD;
+}
+
+@media (max-width: 767.98px) { 
+    .trusted-img{
+        flex-direction: column;
+        gap:20px;
+    }
+    .trusted-img img{
+        width: 50%;
+        margin: 0 auto;
+    }
+    .ct-area{
+        flex-direction: column;
+        gap:20px;
+    }
+    .slider-bg{
+        padding:80px 40px;
+    }
+    
+    
+    .discover-area img{
+        width: 100%;
+    }
+}
